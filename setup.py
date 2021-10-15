@@ -5,7 +5,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = fh.read()
 setup(
     name = 'wsol',
-    version = '0.0.1',
+    version = '3.0.2',
     author = 'NEO',
     author_email = 'neo89ucsc@gmail.com',
     description = 'This custom tool provide basic support to WSOL kubeCtl',
@@ -15,7 +15,7 @@ setup(
     py_modules = ['wsol', 'app'],
     packages = find_packages(),
     install_requires = [requirements],
-    python_requires='>=3.7',
+    python_requires='>=2.7',
     classifiers=[
         "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: MIT License",
